@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:title="up down">
+    <menu>
+        <item
+            android:id="@+id/up"
+            android:icon="@drawable/ic_arrow_upward_black_24dp"
+            android:title="@string/up"
+            />
+
+        <item
+            android:id="@+id/down"
+            android:icon="@drawable/ic_arrow_downward_black_24dp"
+            android:title="@string/down"/>
+    </menu>
+  </item>
+
+    <item android:title="left right">
+        <menu>
+            <item
+                android:id="@+id/left"
+                android:icon="@drawable/ic_arrow_back_black_24dp"
+                android:title="@string/left"/>
+            <item
+                android:id="@+id/right"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="@string/right"/>
+        </menu>
+    </item>
+
+</menu>
